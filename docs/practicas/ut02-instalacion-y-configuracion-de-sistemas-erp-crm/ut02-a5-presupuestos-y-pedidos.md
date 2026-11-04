@@ -1,6 +1,6 @@
 # UT02-A5 · Presupuestos y Pedidos
 
-[⬇ Descargar práctica en PDF](ut02-a5-presupuestos-y-pedidos.pdf){ .md-button .md-button--primary }
+<a class="md-button md-button--primary" href="ut02-a5-presupuestos-y-pedidos.pdf">&#x2B07; Descargar pr&aacute;ctica en PDF</a>
 
 
 ## 1. Resultado de aprendizaje, contenido y criterios de evaluación
