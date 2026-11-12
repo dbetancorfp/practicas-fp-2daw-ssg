@@ -1,8 +1,9 @@
 # Prácticas · 2DAW-SSG
 
-??? abstract "UT02 · Instalación y configuración de sistemas ERP-CRM · 1 actividad"
+??? abstract "UT02 · Instalación y configuración de sistemas ERP-CRM · 2 actividades"
 
     - [UT02-A5 · Presupuestos y Pedidos](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a5-presupuestos-y-pedidos.md) · [Descargar PDF](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a5-presupuestos-y-pedidos.pdf)
+    - [UT02-A6-Facturas y Bancos](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a6-facturas-y-bancos.md) · [Descargar PDF](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a6-facturas-y-bancos.pdf)
 
 ??? abstract "UT03 · Realización de operaciones de gestión · 1 actividad"
 
