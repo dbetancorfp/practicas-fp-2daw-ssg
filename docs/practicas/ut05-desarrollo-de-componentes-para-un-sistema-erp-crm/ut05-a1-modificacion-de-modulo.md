@@ -1,34 +1,21 @@
 # UT05-A1-modificacion_modulos
 
-<a class="md-button md-button--primary" href="ut03-a1-modificacion-modulos.pdf">&#x2B07; Descargar pr&aacute;ctica en PDF</a>
-
-
 ## 1. Resultado de aprendizaje, contenido y criterios de evaluación
 
-<table class="curricular-table">
-<tbody>
-  <tr>
-    <th scope="row" class="curricular-table__label">Resultados de aprendizaje</th>
-    <td class="curricular-table__content"><p>RA3. Realiza operaciones de gestión, consulta y análisis de la información siguiendo las especificaciones de diseño y utilizando las herramientas proporcionadas por los sistemas ERP-CRM.</p></td>
-  </tr>
-  <tr>
-    <th scope="row" class="curricular-table__label">Contenido</th>
-    <td class="curricular-table__content"><ol>
-<li>Definición de campos</li>
-<li>Consultas de acceso a datos</li>
-<li>Interfaces de entrada de datos y de procesos. Formularios</li>
-<li>Informes y listados de la aplicación</li>
-</ol></td>
-  </tr>
-  <tr>
-    <th scope="row" class="curricular-table__label">Criterios de evaluación</th>
-    <td class="curricular-table__content"><p>a) Se han usado herramientas/lenguajes de consulta y manipulación de datos.
+### Resultado de aprendizaje
+RA3. Realiza operaciones de gestión, consulta y análisis de la información siguiendo las especificaciones de diseño y utilizando las herramientas proporcionadas por los sistemas ERP-CRM.
+
+### Contenido
+1. Definición de campos
+2. Consultas de acceso a datos
+3. Interfaces de entrada de datos y de procesos. Formularios
+4. Informes y listados de la aplicación
+
+### Criterios de evaluación
+a) Se han usado herramientas/lenguajes de consulta y manipulación de datos.
 b) Se han generado formularios.
 d) Se han exportado datos e informes.
-g) Se han documentado las operaciones e incidencias.</p></td>
-  </tr>
-</tbody>
-</table>
+g) Se han documentado las operaciones e incidencias.
 
 ## 2. Agrupamiento
 

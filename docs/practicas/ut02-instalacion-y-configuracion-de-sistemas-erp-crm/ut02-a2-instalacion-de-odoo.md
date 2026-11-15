@@ -1,38 +1,19 @@
-# 1. Resultado de aprendizaje, contenido y criterios de evaluación
+# UT02-A2 - Instalación de Odoo
 
-<a class="md-button md-button--primary" href="ut02-a2-instalacion-de-odoo.pdf">&#x2B07; Descargar pr&aacute;ctica en PDF</a>
-
+## 1. Resultado de aprendizaje, contenido y criterios de evaluación
 
 ## Resultado de aprendizaje
-
-|                                                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------|
-| Resultado de aprendizaje                                                                                                 |
-| RA2. Implanta sistemas ERP-CRM interpretando la documentación técnica e identificando las diferentes opciones y módulos. |
-| Contenido                                                                                                                |
-| Tipos de instalación: monopuesto y cliente/servidor. Procesos de instalación del sistema ERP-CRM.                        |
-| Criterios de evaluación                                                                                                  |
-| b\) Se han realizado diferentes tipos de instalaciones.                                                                  |
+RA2. Implanta sistemas ERP-CRM interpretando la documentación técnica e identificando las diferentes opciones y módulos.
 
 ## Contenido
+Tipos de instalación: monopuesto y cliente/servidor. Procesos de instalación del sistema ERP-CRM. 
 
 ## Criterios de evaluación
+b) Se han realizado diferentes tipos de instalaciones.           
 
 # 2. Agrupamiento
 
 Individual
-
-
-
-1.  Dentro de la máquina virtual Linux Mint, abre el navegador web **Firefox**.
-2.  Accede a la URL: **http://localhost:8069**
-3.  Comprueba que carga el **Gestor de Bases de Datos de Odoo**.
-
-## Comprobación 2: Arquitectura Cliente/Servidor
-
-1.  En tu **ordenador real (anfitrión)**, abre tu navegador habitual (Chrome, Firefox, Edge).
-2.  Accede a la URL usando la IP anotada en la Fase 5: **http://TU_DIRECCION_IP:8069** (ejemplo: **\[http://192.168.1.45:8069\](http://192.168.1.45:8069)**).
-3.  Comprueba que el ERP responde correctamente desde la red externa al servidor.
 
 # 3. Contexto
 
@@ -45,39 +26,20 @@ El objetivo es instalar y verificar el ERP comprobando su funcionamiento en dos 
 1.  **Configuración Monopuesto:** Acceso local desde el propio servidor.
 2.  **Arquitectura Cliente/Servidor:** Acceso remoto desde el equipo anfitrión hacia la máquina virtual.
 
-****NOTA: Si ya tienes la máquina virtual con Linux Mint solo tienes que comprobar que está instalado Guest Additions. Si no lo está instalalo ****(Paso 4)****. Una vez hecho ve a la Fase 2. En caso de no tener la máquina sigue los pasos siguientes.****
-
-****
-
-****
-
-****
-
-****
-
-****
+**NOTA: Si ya tienes la máquina virtual con Linux Mint solo tienes que comprobar que está instalado Guest Additions. Si no lo está instalalo ****(Paso 4)****. Una vez hecho ve a la Fase 2. En caso de no tener la máquina sigue los pasos siguientes.**
 
 # 5. Enunciado de la actividad
-
-UT02-A2
-
-Instalación de Odoo en máquina virtual
-
-## **Enunciado de la actividad**
-
-****Deja evidencias gráficas de cada punto conseguido. Imagen gráfica (captura) que sea legible.****
+Deja evidencias gráficas de cada punto conseguido. Imagen gráfica (captura) que sea legible.
 
 ## FASE 1: Entorno de Virtualización (VirtualBox + Linux Mint)
 
-## Descargas previas en el equipo anfitrión (tu ordenador)
+### Descargas previas en el equipo anfitrión (tu ordenador)
 
 - Descarga e instala **Oracle VM VirtualBox** y su **Extension Pack** (**virtualbox.org**).
 
-<!-- -->
-
 - Descarga la ISO de **Linux Mint (Edición Cinnamon 64-bit)** (**linuxmint.com**) o utiliza la proporcionada por el profesorado.
 
-## Paso 1: Crear la Máquina Virtual en VirtualBox
+### Paso 1: Crear la Máquina Virtual en VirtualBox
 
 1.  Abre VirtualBox y haz clic en el botón **Nueva** .
 
@@ -101,7 +63,7 @@ Instalación de Odoo en máquina virtual
     - Asigna un tamaño de al menos **30 GB** (al ser dinámico, solo ocupará en tu PC real lo que realmente use la VM).
     - Haz clic en **Siguiente** y luego en **Terminar**.
 
-## Paso 2: Ajustes finales de la Máquina Virtual antes de arrancar
+### Paso 2: Ajustes finales de la Máquina Virtual antes de arrancar
 
 1.  Haz clic derecho sobre tu VM recién creada (**Servidor-Odoo**) y selecciona **Configuración**.
 
@@ -114,7 +76,7 @@ Instalación de Odoo en máquina virtual
 
 4.  Haz clic en **Aceptar**.
 
-## Paso 3: Instalación del Sistema Operativo Linux Mint
+### Paso 3: Instalación del Sistema Operativo Linux Mint
 
 1.  Haz doble clic en la máquina virtual para **Iniciar**.
 
@@ -148,7 +110,7 @@ Instalación de Odoo en máquina virtual
 
 7.  La pantalla te pedirá: *"Please remove the installation medium, then press ENTER"*. Presiona la tecla **Enter** en tu teclado. La máquina se reiniciará y mostrará la pantalla de inicio de sesión de Linux Mint.
 
-## Paso 4: Instalación de las VirtualBox Guest Additions
+### Paso 4: Instalación de las VirtualBox Guest Additions
 
 (Necesario para tener pantalla completa, cortar/pegar entre tu PC y la VM, e integrar el ratón).
 
@@ -164,13 +126,13 @@ Instalación de Odoo en máquina virtual
 
 A partir de este punto, todas las acciones se realizan dentro de la máquina virtual Linux Mint utilizando la **Terminal**.
 
-## Paso 1: Abrir la Terminal y actualizar el sistema
+### Paso 1: Abrir la Terminal y actualizar el sistema
 
 1.  Abre una terminal.
 2.  Actualiza la lista de software del repositorio ejecutando: **sudo apt update**
 3.  Actualiza todos los paquetes del sistema a su última versión: **sudo apt upgrade -y**
 
-## Paso 2: Instalación de herramientas base y dependencias de red
+### Paso 2: Instalación de herramientas base y dependencias de red
 
 Para descargar archivos, firmar claves de seguridad y clonar repositorios durante la instalación de PostgreSQL y Odoo, se requieren utilidades básicas en el sistema.
 
@@ -178,11 +140,7 @@ Para descargar archivos, firmar claves de seguridad y clonar repositorios durant
 
     **sudo apt install -y curl wget git gnupg2 software-properties-common build-essential**
 
-**
-
-**
-
-## Paso 3: Comprobación previa antes de pasar a la Fase 3
+### Paso 3: Comprobación previa antes de pasar a la Fase 3
 
 Asegúrate de que el entorno responde correctamente comprobando las versiones instaladas:
 
@@ -198,11 +156,11 @@ Asegúrate de que el entorno responde correctamente comprobando las versiones in
 
 Siguiendo las recomendaciones de la [Documentación Oficial de Odoo sobre paquetes](https://www.odoo.com/documentation/19.0/es/administration/on_premise/packages.html), instalaremos el SGBD PostgreSQL.
 
-## Paso 1: Instalación del motor de base de datos
+### Paso 1: Instalación del motor de base de datos
 
 * *sudo apt install -y postgresql**
 
-## Paso 2: Verificación del servicio
+### Paso 2: Verificación del servicio
 
 * *sudo systemctl status postgresql**
 
@@ -212,13 +170,13 @@ Siguiendo las recomendaciones de la [Documentación Oficial de Odoo sobre paquet
 
 Aplicaremos la **instalación por paquete (.deb)** utilizando el repositorio oficial APT de Odoo.
 
-## Paso 1: Instalación de dependencias de renderizado (wkhtmltopdf)
+### Paso 1: Instalación de dependencias de renderizado (wkhtmltopdf)
 
 Odoo requiere el motor *wkhtmltopdf* para exportar informes e impresiones a formato PDF.
 
 * *sudo apt install -y wkhtmltopdf**
 
-## Paso 2: Configuración del repositorio oficial e instalación de Odoo
+### Paso 2: Configuración del repositorio oficial e instalación de Odoo
 
 1.  Importa la clave de firma GPG oficial de Odoo:
 
@@ -238,14 +196,14 @@ Odoo requiere el motor *wkhtmltopdf* para exportar informes e impresiones a form
 
 Una vez completada la instalación del paquete de Odoo y PostgreSQL, Odoo queda integrado en el sistema como un servicio. En esta fase vas a configurar la clave maestra del sistema, verificar el servicio e iniciar sesión desde el navegador.
 
-## Paso 1: Averiguar la dirección IP de la máquina virtual
+### Paso 1: Averiguar la dirección IP de la máquina virtual
 
 Necesitamos saber la dirección IP de Linux Mint para poder entrar a Odoo desde el navegador (ya sea desde dentro de la máquina virtual o desde el navegador de tu ordenador real).
 
 1.  Abre la terminal y ejecuta: **hostname -I**
 2.  Verás una serie de números separados por puntos. **Apunta esa dirección IP**, la usarás más adelante. *(Si estás dentro de la máquina virtual, también puedes usar simplemente *localhost*).*
 
-## Paso 2: Editar el archivo de configuración (**odoo.conf**)
+### Paso 2: Editar el archivo de configuración (**odoo.conf**)
 
 En las instalaciones por paquete **.deb**, el archivo de configuración se crea automáticamente en **/etc/odoo/odoo.conf**. Aquí se define la **Clave Maestra** (*Master Password*), que sirve para crear, duplicar, restaurar o borrar bases de datos.
 
@@ -279,16 +237,12 @@ En las instalaciones por paquete **.deb**, el archivo de configuración se crea 
 
     - *Ejemplo final de la línea:* **admin_passwd = ClaveMaestraOdoo2026**
 
-**
-
-**
-
-1.  **Guardar y salir del editor ******nano******:**
+5.  **Guardar y salir del editor ******nano******:**
 
     - Pulsa la combinación de teclas **Ctrl + O** y luego la tecla **Enter** (esto guarda los cambios).
     - Pulsa la combinación de teclas **Ctrl + X** (esto cierra el editor y te devuelve a la terminal).
 
-## Paso 3: Reiniciar y verificar el servicio de Odoo
+### Paso 3: Reiniciar y verificar el servicio de Odoo
 
 Cada vez que modificas el archivo **odoo.conf**, debes reiniciar el servicio para que aplique los cambios.
 
@@ -304,7 +258,7 @@ Cada vez que modificas el archivo **odoo.conf**, debes reiniciar el servicio par
 
 4.  *(Opcional)* Asegúrate de que Odoo se inicie automáticamente cada vez que enciendas la máquina virtual: **sudo systemctl enable odoo**
 
-## Paso 4: Abrir Odoo en el navegador web
+### Paso 4: Abrir Odoo en el navegador web
 
 Odoo utiliza por defecto el puerto **8069**.
 
@@ -315,7 +269,7 @@ Odoo utiliza por defecto el puerto **8069**.
     - Si estás en el navegador **de la máquina virtual**: **http://localhost:8069**
     - Si estás en el navegador **de tu PC real**: **http://TU_DIRECCION_IP:8069** *(reemplaza *TU_DIRECCION_IP* por la que anotaste en el Paso 1, ej: *\[http://192.168.1.45:8069\](**[**http://192.168.1.45:8069**](http://192.168.1.45:8069/)**)*)*.
 
-## Paso Final: Creación de la Base de Datos Inicial
+### Paso Final: Creación de la Base de Datos Inicial
 
 Al acceder por primera vez, verás la pantalla del **Gestor de Bases de Datos de Odoo**. Rellena el formulario con los siguientes datos:
 
@@ -351,10 +305,8 @@ Cuando termine el proceso, el sistema te redirigirá automáticamente al **Panel
 
 # 8. Rúbrica
 
-<div>
-
-|                                                             |                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                            |                                                                                                                                                                                 |                                                                                                                |
-|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|          |      |       |       |        |
+|-------|--------|---------|---------|-------|
 | Fase 1: Entorno de Virtualización (VirtualBox + Linux Mint) | Configura la VM omitiendo la instalación desatendida, asigna hardware adecuado (RAM ≥ 4GB, CPU ≥ 2 núcleos, Disco ≥ 30GB), establece la red en Adaptador Puente, instala Linux Mint con códecs multimedia y activa las Guest Additions con portapapeles bidireccional. (1,5 puntos) | Instala Linux Mint y la VM de forma funcional, pero omite o configura de forma incompleta algún ajuste secundario (Guest Additions, memoria de vídeo al máximo o portapapeles bidireccional). (1,05puntos) | La VM e instalación de Linux Mint son operativas, pero mantiene el adaptador de red en NAT sin permitir acceso externo o la asignación de recursos es deficiente. (0,75 puntos) | No logra crear la máquina virtual o el sistema operativo Linux Mint no queda instalado y operativo. (0 puntos) |
 | Fase 2: Preparación del Sistema Operativo                   | Actualiza repositorios y paquetes (**apt update/upgrade**), instala el bloque completo de herramientas base (**curl**, **wget**, **git**, **gnupg2**, **build-essential**, etc.) y verifica las versiones correctamente en la terminal. (0,5 puntos)                                | Actualiza el sistema e instala el paquete de herramientas base, pero omite el paso de comprobación explícita de versiones en la terminal. (0,35 puntos)                                                    | Instala las herramientas básicas de red y desarrollo pero omite la actualización previa del sistema operativo. (0,25 puntos)                                                    | No realiza la actualización del sistema ni instala las dependencias base requeridas. (0 puntos)                |
 | Fase 3: Instalación y Configuración del SGBD (PostgreSQL)   | Instala PostgreSQL desde repositorios y verifica mediante **systemctl** que el servicio se encuentra activo y en ejecución (*active/running*). (1 puntos)                                                                                                                           | Instala PostgreSQL correctamente pero no realiza la verificación del estado del servicio en la terminal. (0,7 puntos)                                                                                      | Requiere asistencia para completar la instalación del motor de base de datos o solucionar bloqueos en el gestor de paquetes. (0,5 puntos)                                       | No instala el SGBD PostgreSQL o el servicio no queda en estado funcional. (0 puntos)                           |
@@ -363,11 +315,8 @@ Cuando termine el proceso, el sistema te redirigirá automáticamente al **Panel
 | Fase 6: Verificación de Modalidades y Creación de BD        | Comprueba el acceso monopuesto (**localhost:8069**) y cliente/servidor (**IP:8069**), y crea la BD inicial con datos demo, idioma español y clave maestra validada. (1,25 puntos)                                                                                                   | Accede a Odoo y crea la base de datos correctamente, pero solo verifica una de las dos modalidades de acceso (monopuesto o red). (0,88 puntos)                                                             | Accede a la interfaz web de Odoo pero no completa la creación de la base de datos inicial o no incluye datos de prueba. (0,63 puntos)                                           | No logra acceder a la interfaz web de Odoo por el puerto 8069 ni desplegar la base de datos. (0 puntos)        |
 | b\) Realiza diferentes tipos de instalaciones               | Completa y verifica las modalidades monopuesto y cliente/servidor, distinguiendo sus componentes y aportando evidencias funcionales claras de ambas. (1,25 puntos)                                                                                                                  | Completa ambas modalidades con funcionamiento correcto, pero la documentación o alguna comprobación es parcial. (0,88 puntos)                                                                              | Solo una modalidad queda operativa o la segunda no se diferencia/verifica suficientemente. (0,63 puntos)                                                                        | No completa una instalación funcional ni evidencia dos modalidades de instalación. (0 puntos)                  |
 
-</div>
+Penalización por retraso:
 
-****
-
-****
 
 |                        |                          |                             |                             |                   |                  |
 |------------------------|--------------------------|-----------------------------|-----------------------------|-------------------|------------------|

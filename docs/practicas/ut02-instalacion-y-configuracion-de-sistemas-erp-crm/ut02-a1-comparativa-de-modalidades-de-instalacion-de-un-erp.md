@@ -1,26 +1,15 @@
 # UT02-A1-Comparativa de modalidades de instalación de un ERP
 
-<a class="md-button md-button--primary" href="ut02-a1-comparativa-de-modalidades-de-instalacion-de-un-erp.pdf">&#x2B07; Descargar pr&aacute;ctica en PDF</a>
-
-
 ## 1. Resultado de aprendizaje, contenido y criterios de evaluación
 
-<table class="curricular-table">
-<tbody>
-  <tr>
-    <th scope="row" class="curricular-table__label">Resultados de aprendizaje</th>
-    <td class="curricular-table__content"><p>RA2. Implanta sistemas ERP-CRM interpretando la documentación técnica e identificando las diferentes opciones y módulos.</p></td>
-  </tr>
-  <tr>
-    <th scope="row" class="curricular-table__label">Contenido</th>
-    <td class="curricular-table__content"><p>1. Tipos de instalación. Monopuesto. Cliente/servidor</p></td>
-  </tr>
-  <tr>
-    <th scope="row" class="curricular-table__label">Criterios de evaluación</th>
-    <td class="curricular-table__content"><p>b) Se han realizado diferentes tipos de instalaciones.</p></td>
-  </tr>
-</tbody>
-</table>
+### Resultado de aprendizaje
+RA2. Implanta sistemas ERP-CRM interpretando la documentación técnica e identificando las diferentes opciones y módulos.
+
+### Contenido
+1\. Tipos de instalación. Monopuesto. Cliente/servidor  
+
+### Criterios de evaluación
+b\) Se han realizado diferentes tipos de instalaciones.         
 
 ## 2. Agrupamiento
 

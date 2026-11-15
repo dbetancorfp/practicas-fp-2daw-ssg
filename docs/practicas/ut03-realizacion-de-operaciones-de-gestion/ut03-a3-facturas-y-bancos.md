@@ -1,29 +1,16 @@
-# UT02-A6-Facturas y Bancos
-
-<a class="md-button md-button--primary" href="ut02-a6-facturas-y-bancos.pdf">&#x2B07; Descargar pr&aacute;ctica en PDF</a>
-
+# UT03-A2 - Facturas y Bancos
 
 ## 1. Resultado de aprendizaje, contenido y criterios de evaluación
 
-<table class="curricular-table">
-<tbody>
-  <tr>
-    <th scope="row" class="curricular-table__label">Resultados de aprendizaje</th>
-    <td class="curricular-table__content"><p>RA3. Realiza operaciones de gestión, consulta y análisis de la información siguiendo las especificaciones de diseño y utilizando las herramientas proporcionadas por los sistemas ERP-CRM</p></td>
-  </tr>
-  <tr>
-    <th scope="row" class="curricular-table__label">Contenido</th>
-    <td class="curricular-table__content"><ol start="4">
-<li>Informes y listados de la aplicación</li>
-</ol></td>
-  </tr>
-  <tr>
-    <th scope="row" class="curricular-table__label">Criterios de evaluación</th>
-    <td class="curricular-table__content"><p>c) Se han generado informes.
-d) Se han exportado datos e informes.</p></td>
-  </tr>
-</tbody>
-</table>
+### Resultado de aprendizaje
+RA3. Realiza operaciones de gestión, consulta y análisis de la información siguiendo las especificaciones de diseño y utilizando las herramientas proporcionadas por los sistemas ERP-CRM
+
+### Contenido
+4. Informes y listados de la aplicación
+
+### Criterios de evaluación
+c) Se han generado informes.
+d) Se han exportado datos e informes.
 
 ## 2. Agrupamiento
 
