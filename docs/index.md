@@ -13,5 +13,5 @@
 
 ??? abstract "UT05 · Desarrollo de componentes para un sistema ERP-CRM · 2 actividades"
 
-    - [UT05-A1-modificacion_modulos](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a1-modificacion-modulos.md) · [Descargar PDF](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a1-modificacion-modulos.pdf)
-    - [UT05-A2-guia-gestion-tareas](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a2-guia-gestion-tareas.md) · [Descargar PDF](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a2-guia-gestion-tareas.pdf)
+    - [UT05-A1 - Modificación de modulos](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a1-modificacion-de-modulos.md) · [Descargar PDF](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a1-modificacion-de-modulos.pdf)
+    - [UT05-A2 - Guía de gestión de tareas](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a2-guia-gestion-tareas.md) · [Descargar PDF](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a2-guia-gestion-tareas.pdf)
