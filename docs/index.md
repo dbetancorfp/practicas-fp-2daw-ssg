@@ -8,17 +8,17 @@
 	
 ??? abstract "UT02 - Instalación y configuración de sistemas ERP-CRM · 3 actividades"
 
-	- [UT02-A1 - Comparativa de modalidades de instalacion de un ERP](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a1-comparativa-de-modalidades-de-instalacion-de-un-ERP.md) · [Descargar PDF](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a1-comparativa-de-modalidades-de-instalacion-de-un-ERP.pdf)
+	- [UT02-A1 - Comparativa de modalidades de instalacion de un ERP](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a1-comparativa-de-modalidades-de-instalacion-de-un-erp.md) · [Descargar PDF](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a1-comparativa-de-modalidades-de-instalacion-de-un-erp.pdf)
 	- [UT02-A2 - Instalación de Odoo](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a2-instalacion-de-odoo.md) · [Descargar PDF](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a2-instalacion-de-odoo.pdf)
 	- [UT02-A3 - Configuración de modulos y despliegue de Odoo](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a3-configuracion-de-modulos-y-despliegue-de-odoo.md) · [Descargar PDF](practicas/ut02-instalacion-y-configuracion-de-sistemas-erp-crm/ut02-a3-configuracion-de-modulos-y-despliegue-de-odoo.pdf)
 
 ??? abstract "UT03 - Realización de operaciones de gestión · 3 actividades"
 
-    - [UT3-A1 - Terceros, productos, servicios y almacen](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a1-terceros-productos-servicios-y-almacen.md)(practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a1-terceros-productos-servicios-y-almacen.pdf)
- 	- [UT3-A2 - Presupuestos y pedidos](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a2-presupuestos-y-pedidos.md)(practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a2-presupuestos-y-pedidos.pdf)
- 	- [UT3-A3 - Facturas y bancos](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a3-facturas-y-bancos.md)(practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a3-facturas-y-bancos.pdf)
+    - [UT3-A1 - Terceros, productos, servicios y almacen](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a1-terceros-productos-servicios-y-almacen.md) · [Descargar PDF](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a1-terceros-productos-servicios-y-almacen.pdf)
+    - [UT3-A2 - Presupuestos y pedidos](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a2-presupuestos-y-pedidos.md) · [Descargar PDF](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a2-presupuestos-y-pedidos.pdf)
+    - [UT3-A3 - Facturas y bancos](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a3-facturas-y-bancos.md) · [Descargar PDF](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a3-facturas-y-bancos.pdf)
 
 ??? abstract "UT05 - Desarrollo de componentes para un sistema ERP-CRM · 2 actividades"
 
-    - [UT05-A1 - Modificación de modulos](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a1-modificacion-modulo.md) · [Descargar PDF](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a1-modificacion-modulo.pdf)
+    - [UT05-A1 - Modificación de modulos](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a1-modificacion-de-modulo.md) · [Descargar PDF](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a1-modificacion-de-modulo.pdf)
     - [UT05-A2 - Guía paso a paso: módulo "Gestión de Tareas" en Odoo 17](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a2-guia-gestion-tareas.md) · [Descargar PDF](practicas/ut05-desarrollo-de-componentes-para-un-sistema-erp-crm/ut05-a2-guia-gestion-tareas.pdf)
