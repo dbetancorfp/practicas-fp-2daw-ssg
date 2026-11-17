@@ -1,4 +1,4 @@
-# UT03-A2 - Facturas y Bancos
+# UT03-A3 - Facturas y Bancos
 
 ## 1. Resultado de aprendizaje, contenido y criterios de evaluación
 
