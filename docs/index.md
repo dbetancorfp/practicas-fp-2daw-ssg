@@ -1,4 +1,4 @@
-# Prácticas · 2DAM-SSG
+# Prácticas · 2DAW-SSG
 
 ??? abstract "UT01 - Identificacion de sistemas ERP-CRM-BI · 3 actividades"
 
