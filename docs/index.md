@@ -18,7 +18,7 @@
     - [UT03-A2 - Presupuestos y pedidos](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a2-presupuestos-y-pedidos.md) · [Descargar PDF](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a2-presupuestos-y-pedidos.pdf)
     - [UT03-A3 - Facturas y bancos](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a3-facturas-y-bancos.md) · [Descargar PDF](practicas/ut03-realizacion-de-operaciones-de-gestion/ut03-a3-facturas-y-bancos.pdf)
 
-??? abstract "UT04 - UT04 - Consulta de la información e Implantación de sistemas ERP-CRM en una empresa · 1 actividades"
+??? abstract "UT04 - Consulta de la información e Implantación de sistemas ERP-CRM en una empresa · 1 actividades"
 
 	- [UT04-A1 - Exploración de tablas, consultas y vistas en Odoo](practicas-fp-2daw-ssg/docs/practicas/ut04-consulta-de-la-informacion-e-implantacion-de-sistemas-ERP-CRM-en-una-empresa/ut04-a1- exploracion-de tablas-consultas-y-vistas-en-odoo.md) · [Descargar PDF](practicas-fp-2daw-ssg/docs/practicas/ut04-consulta-de-la-informacion-e-implantacion-de-sistemas-ERP-CRM-en-una-empresa/ut04-a1- exploracion-de tablas-consultas-y-vistas-en-odoo.pdf)
 
