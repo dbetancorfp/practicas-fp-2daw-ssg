@@ -239,7 +239,15 @@ Qué hace este archivo:
 
 **Debes explicar con tus propias palabras qué hace el código XML del informe.**
 
-#### 5.5.7. Comprobar los archivos antes de instalar
+#### 5.5.7. Edición de odoo.conf
+
+Ir a la ruta /odoo/config y edita el fichero **odoo.conf**. Añade, debajo de la línea `data_dir`lo siguiente:
+
+```bash
+addons_path = /usr/lib/python3/dist-packages/odoo/addons,/var/lib/odoo/data/addons/17.0,/mnt/extra-addons
+```
+
+### 5.5.8. Comprobar los archivos antes de instalar
 
 Comprueba que están donde deben estar:
 
@@ -255,7 +263,7 @@ xmllint --noout addons/sale_quotation_creator/views/sale_order_views.xml addons/
 
 Si `xmllint` no está instalado, puedes omitir esa comprobación; Odoo validará los XML durante la instalación.
 
-#### 5.5.8. Reiniciar Odoo para que detecte el módulo
+#### 5.5.9. Reiniciar Odoo para que detecte el módulo
 
 Desde `/david/APLICACIONES/Odoo`:
 
@@ -272,7 +280,7 @@ docker compose logs --tail=100 web
 
 No debe aparecer un error de arranque. Ver que el servicio esté `running` o `Up` es suficiente para pasar al siguiente punto.
 
-#### 5.5.9. Instalar el módulo desde Odoo
+#### 5.5.10. Instalar el módulo desde Odoo
 
 1. Entra en Odoo con una cuenta administradora.
 2. Ve a **Aplicaciones**.
@@ -283,7 +291,7 @@ No debe aparecer un error de arranque. Ver que el servicio esté `running` o `Up
 
 Si no aparece al buscar, borra cualquier filtro de “Aplicaciones”, busca por `sale_quotation_creator` y revisa el apartado de resolución de problemas.
 
-#### 5.5.10. Verificar el formulario y el PDF
+#### 5.5.11. Verificar el formulario y el PDF
 
 ##### Formulario
 
@@ -301,7 +309,7 @@ Si no aparece al buscar, borra cualquier filtro de “Aplicaciones”, busca por
 
 Para una prueba completa, crea un presupuesto con un usuario y asígnale otro comercial. Así confirmas visualmente que el módulo enseña el creador y no está duplicando el comercial.
 
-#### 5.5.11. Actualizar el módulo después de cambiar XML
+#### 5.5.12. Actualizar el módulo después de cambiar XML
 
 Cada vez que modifiques `__manifest__.py` o cualquiera de los XML:
 
@@ -325,7 +333,7 @@ docker compose up -d web
 
 Sustituye `NOMBRE_DE_TU_BD`. No ejecutes ese comando con una base de datos desconocida. La actualización desde la interfaz es más sencilla para este caso.
 
-#### 5.5.12. Consulta a la base de datos mediante PgAdmin (Criterio a)
+#### 5.5.13. Consulta a la base de datos mediante PgAdmin (Criterio a)
 Para comprobar que los datos del módulo se están registrando correctamente a nivel de base de datos, realizaremos una consulta SQL directamente en PostgreSQL utilizando PgAdmin.
 
 1. Accede a PgAdmin: Abre tu cliente de PgAdmin y conéctate al servidor de PostgreSQL de tu contenedor Docker.
@@ -338,7 +346,7 @@ Para comprobar que los datos del módulo se están registrando correctamente a n
 
 5. Documentación: Toma una captura de pantalla donde se vea claramente la consulta SQL escrita y los resultados obtenidos en la parte inferior para incluirla en tu PDF.
 
-#### 5.5.13. Exportación de datos e informes a CSV (Criterio d)
+#### 5.5.14. Exportación de datos e informes a CSV (Criterio d)
 Ahora vamos a exportar un informe en formato CSV directamente desde la aplicación de Odoo para tratar los datos externamente.
 
 1. Ve a la vista de lista: En Odoo, dirígete a Ventas > Pedidos > Presupuestos. Asegúrate de estar en la vista de lista (icono de líneas horizontales arriba a la derecha).
